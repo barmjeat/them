@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/style1.css">
+
+	<title>Document</title>
+</head>
+<body>
+
+	<style>
+        body{
+            background-color: #eee;
+        }
+        .dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	background: #0000;
+	/*color: #FFFFFF;*/
+  color: #444;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: green;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #DF4B05;
+}
+#submenu a {
+	background-color: #0000;
+}
+    </style>
+ 
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12" style="margin-top: 30px;">
+            <nav class="dropdownmenu">
+                <ul>
+                  <li><a href="http://www.jochaho.com/wordpress/">Home</a></li>
+                  <li><a href="abuotme.html">About Me</a></li>
+                  <li><a href="#">Articles on HTML5 & CSS3</a>
+                    <ul id="submenu">
+                      <li><a href="http://www.jochaho.com/wordpress/difference-between-svg-vs-canvas/">Difference between SVG vs. Canvas</a></li>
+                      <li><a href="http://www.jochaho.com/wordpress/new-features-in-html5/">New features in HTML5</a></li>
+                      <li><a href="http://www.jochaho.com/wordpress/creating-links-to-sections-within-a-webpage/">Creating links to sections within a webpage</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="http://www.jochaho.com/wordpress/category/news/">News</a></li>
+                  <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+	</div>
+	
+
+
+	<!--------->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12" style="margin-top:30px;">
+
+
+			</div>
+		</div>
+	</div>
+
+	
+  
+  
+  
+		</div>
+	  
+	  </div>
+  
+	  
+	
+</body>
+</html>
